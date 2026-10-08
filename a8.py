@@ -14,3 +14,11 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+
+a = 5
+b = 8
+x = (a ** 2) + (b ** 2)
+c = (x ** 0.5)
+numDecimals = 2
+c = round(c , numDecimals)
+print(c)
